@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">AutoCompleteLookupFieldType</Field>
+    <Field Name="ParentType">Lookup</Field>
+    <Field Name="TypeDisplayName">Auto Complete (Lookup)</Field>
+    <Field Name="TypeShortDescription">Search (Lookup)</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="Sortable">TRUE</Field>
+    <Field Name="Filterable">TRUE</Field>
+    <Field Name="ShowInSurveyCreate">TRUE</Field>
+    <Field Name="ShowInDocumentLibraryCreate">TRUE</Field>
+    <Field Name="ShowInColumnTemplateCreate">TRUE</Field>
+    <Field Name="FieldTypeClass">
+      FlyingHippo.AutoComplete.Fields.AutoCompleteFieldType,
+      $SharePoint.Project.AssemblyFullName$
+    </Field>
+    <Field Name="FieldEditorUserControl">/_controltemplates/FlyingHippo/Fields/AutoCompleteLookupFieldEditor.ascx</Field>
+    <Field Name="AllowBaseTypeRendering">FALSE</Field>
+    <Field Name="CAMLRendering">FALSE</Field>
+    <PropertySchema>
+      <Fields>
+        <Field Hidden="TRUE" Name="SearchListGuid" DisplayName="SearchListGuid" Type="Text"></Field>
+        <Field Hidden="TRUE" Name="SearchColumnGuids" DisplayName="SearchColumnGuids" Type="Text"></Field>
+        <Field Hidden="TRUE" Name="AllowMultiple" DisplayName="Allow Multiple" Type="Boolean"></Field>
+        <Field Hidden="TRUE" Name="DisplayColumnStaticName" DisplayName="Display Column" Type="Text"></Field>
+      </Fields>
+    </PropertySchema>
+  </FieldType>
+  <FieldType>
+    <Field Name="TypeName">AutoCompleteLookupMultiFieldType</Field>
+    <Field Name="ParentType">LookupMulti</Field>
+    <Field Name="TypeDisplayName">Auto Complete (Lookup)</Field>
+    <Field Name="TypeShortDescription">Search (Lookup)</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="Sortable">TRUE</Field>
+    <Field Name="Filterable">TRUE</Field>
+    <Field Name="ShowInSurveyCreate">TRUE</Field>
+    <Field Name="ShowInDocumentLibraryCreate">TRUE</Field>
+    <Field Name="ShowInColumnTemplateCreate">TRUE</Field>
+    <Field Name="FieldTypeClass">
+      FlyingHippo.AutoComplete.Fields.AutoCompleteFieldType,
+      $SharePoint.Project.AssemblyFullName$
+    </Field>
+    <Field Name="FieldEditorUserControl">/_controltemplates/FlyingHippo/Fields/AutoCompleteLookupFieldEditor.ascx</Field>
+    <Field Name="AllowBaseTypeRendering">FALSE</Field>
+    <Field Name="CAMLRendering">FALSE</Field>
+    <PropertySchema>
+      <Fields>
+        <Field Hidden="TRUE" Name="SearchListGuid" DisplayName="SearchListGuid" Type="Text"></Field>
+        <Field Hidden="TRUE" Name="SearchColumnGuids" DisplayName="SearchColumnGuids" Type="Text"></Field>
+        <Field Hidden="TRUE" Name="AllowMultiple" DisplayName="Allow Multiple" Type="Boolean"></Field>
+        <Field Hidden="TRUE" Name="DisplayColumnStaticName" DisplayName="Display Column" Type="Text"></Field>
+      </Fields>
+    </PropertySchema>
+  </FieldType>
+</FieldTypes>

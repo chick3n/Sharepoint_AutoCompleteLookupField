@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="154e78bc-9ef4-4529-b4db-70fc964a4464" solutionId="154e78bc-9ef4-4529-b4db-70fc964a4464" resetWebServer="false" name="Auto_Complete_Field_Lookup" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="b6747eff-4799-440e-a999-4a802c5372d4" />
+    <projectItemReference itemId="96987de9-1cf7-47d1-aadd-aeff6ed1c546" />
+  </projectItems>
+</package>
